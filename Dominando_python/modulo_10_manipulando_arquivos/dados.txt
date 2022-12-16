@@ -1,0 +1,3 @@
+Eu estou aprendendo a programar em Python.
+Eu estou estudando na Empowerdata.
+Estamos nesse momento no curso Dominando a Linguagem Python.

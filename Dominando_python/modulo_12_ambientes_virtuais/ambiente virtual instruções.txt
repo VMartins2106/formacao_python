@@ -1,0 +1,53 @@
+CRIAR AMBIENTE VIRTUAL
+(para instalar bibliotecas especificas)
+
+no terminal baixado pela microsoft store:
+
+vá na pasta desejada e:
+
+---python -m venv venv
+
+(cria a pasta venv com o ambiente virtual)
+
+cria uma pasta '.vscode' e coloque o arquivo:
+
+---settings.json
+
+e lá, você põem:
+
+(IDENTAR CERTO)
+"code-runner.executorMap": {
+"python": "C:\\Users\\'caminho da sua pasta'
+\\venv\\Scripts\\python.exe" 
+}
+com tudo configurado, podemos criar arquivos
+.py e instalar bibliotecas apenas naquele 
+ambiente.
+Vá na pasta, crie um .py
+e aperte (control + ') -> se aparecer (venv)
+antes do diretório, deu certo
+e dê o pip install... para instalar
+
+--------------------------------------------------
+
+PARA EXPORTAR O QUE FOI INSTALADO NO AMBIENTE:
+
+(control + ') --> pip freeze > 'nome'.txt
+o nome geralmente é: REQUIREMENTS
+
+--------------------------------------------------
+
+ATIVAR REQUIREMENTS DE OUTRO PROJETO: 
+
+no ***terminal***: 
+-> entre na pasta venv criada
+-> entre na pasta Scripts
+-> e entre em activate ( isto faz o jupyter funcionar 
+no vscode dentro do ambiente virtual)
+
+tudo estará ativado
+
+vá no seu arquivo .py da pasta em questão e faça:
+
+-> (control + ') (TEM QUE APARECER (VENV) antes do diretório
+-> pip install -r requirements.txt (ou o nome do requerimento em questão)
