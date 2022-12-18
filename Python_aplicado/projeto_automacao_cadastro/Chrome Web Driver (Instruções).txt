@@ -1,0 +1,8 @@
+
+Chrome Web Driver (Instruções):
+
+-> baixar a versão do google atual para windows-32
+-> descobre a versão do google em tres pontos superior direito >
+ajuda > Sobre o google chrome, e lá estará a sua versão
+-> pega o zip e dezipa ele (criando executavel) dentro da pasta
+Scripts, no venv do ambiente virtual
